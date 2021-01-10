@@ -1,4 +1,4 @@
-## Tensorflow in Docker Container w/GPU Support
+## TensorFlow in Docker Container w/GPU Support
 
 1. Install NVIDIA proprietary driver first, _see Additional Drivers in Ubuntu, or [download install file](https://www.nvidia.com/Download/index.aspx?lang=en-us)_
 2. [Install Docker](https://docs.docker.com/engine/install/)
@@ -22,4 +22,10 @@
 * Stop all containers: `docker kill $(docker ps -q)`
 * Remove all containers: `docker rm $(docker ps -a -q)`
 * Remove all docker images: `docker rmi $(docker images -q)`
+
+## TensorFlow in macOS
+
+1. Install TensorFlow via [pip](https://www.tensorflow.org/install/pip)
+2. Start in Python virtual environment: `$ source ~/venv/bin/activate`
+3. When done, `(venv) $  deactivate`
 
