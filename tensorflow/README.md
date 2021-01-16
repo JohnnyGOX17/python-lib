@@ -1,3 +1,7 @@
+## Install TensorFlow w/CUDA GPU Support on Ubuntu 20.04
+
+Towards Data Science has a [great install article on this process](https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d).
+
 ## TensorFlow in Docker Container w/GPU Support
 
 1. Install NVIDIA proprietary driver first, _see Additional Drivers in Ubuntu, or [download install file](https://www.nvidia.com/Download/index.aspx?lang=en-us)_
