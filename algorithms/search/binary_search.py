@@ -26,12 +26,3 @@ def binary_search(key: int, sorted_collection: "list[int]") -> int:
 	# "more Pythonic", and return type alias woulc be "-> int | None:"
 	return -1
 
-if __name__ == "__main__":
-	sorted_list = [0, 1, 4, 5, 41, 42, 43, 55]
-	key = 42
-	index = binary_search(key, sorted_list)
-	if index == -1:
-		print("Key not found!")
-	else:
-		assert key == sorted_list[index], "Key does not match expected!"
-
