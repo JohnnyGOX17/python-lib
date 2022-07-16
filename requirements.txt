@@ -1,2 +1,4 @@
 matplotlib
+mypy
 numpy
+pytest-cov
