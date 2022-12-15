@@ -12,7 +12,7 @@ if ! mypy algorithms/; then
 fi
 
 echo "    > [pytest] Running unit tests (discrete + doctests) w/coverage"
-if ! pytest --doctest-modules --cov-report=term-missing:skip-covered --cov=. .; then
+if ! pytest --doctest-modules --cov-report=term-missing:skip-covered --cov=. --ignore=basics/ .; then
   echo "pytest failed!"
   exit 1
 fi

@@ -9,7 +9,10 @@
 
 Reuse and example code for Python 3
 
+## Install 
+
+Run `scripts/install.sh`
+
 ## Tests
 
-See CI script for GitHub under `.github/workflows/run_tests.yml`
-
+Ran from `scripts/run-tests.sh`
